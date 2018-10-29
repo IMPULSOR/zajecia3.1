@@ -1,7 +1,7 @@
 from pylab import *
 
-a = 1
-b = 2
+a = int(input("Funkcja a*x-b. Podaj a:"))
+b = int(input("Funkcja a*x-b. Podaj b:"))
 x = range(-10, 11)
 y = []
 for i in x:
