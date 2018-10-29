@@ -15,6 +15,8 @@ for i in x:
         x2.append(i)
         y2.append((i*i)/3)
 
+xlabel('x')
+ylabel('y')
 plot(x1, y1)
 plot(x2, y2)
 title('Wykres f(x)')
